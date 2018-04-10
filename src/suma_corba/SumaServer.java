@@ -66,8 +66,10 @@ public class SumaServer {
 			System.out.println("Servidor de suma listo y en espera");
 			//confirmacion de servidor conectado
 			orb.run();
-		} catch (Exception e) {
+                    } 
+                catch (Exception e) {
 			System.err.println("Error: " + e);
 			e.printStackTrace(System.out);
-		}
+                    }
+        }
 
